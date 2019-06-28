@@ -24,7 +24,7 @@ class DNSSPOOF():
 		self.url_extract()
 
 	def arguman_al(self):
-		parse=argparse.ArgumentParser()
+		parse=argparse.ArgumentParser(description=self.description,epilog=self.kullanim,prog=self.program)
 		parse.add_argument("--u","--url",dest="url",help="DNS spoofing islemi yapilacak url")
 		parse.add_argument("--r","--redirect",dest="redirect",help="Yonlendirilecek IP adresi")
 		options=parse.parse_args()

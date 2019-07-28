@@ -1,4 +1,4 @@
-scapy==2.4.0
+scapy==2.4.2
 NetfilterQueue==0.6
 tldextract==2.2.1
 termcolor==1.1.0
